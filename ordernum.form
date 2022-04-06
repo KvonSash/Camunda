@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Enter Order Number",
+      "type": "textfield",
+      "id": "Field_00rigm3",
+      "key": "ordernum",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1aej0ff"
+}

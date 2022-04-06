@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "action": "submit",
+      "label": "Create Invoice",
+      "type": "button",
+      "id": "Field_17ev0ym",
+      "key": "field_1ta7c98"
+    }
+  ],
+  "type": "default",
+  "id": "CreateInvoice"
+}

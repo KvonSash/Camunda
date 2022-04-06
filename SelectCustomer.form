@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Customer-A",
+          "value": "A"
+        },
+        {
+          "label": "Customer-B",
+          "value": "B"
+        },
+        {
+          "label": "Customer-C",
+          "value": "C"
+        }
+      ],
+      "label": "Select Customer",
+      "type": "select",
+      "id": "Field_0eqmsfn",
+      "key": "selectcust",
+      "description": "Select the customer from list",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_07s2ins"
+}

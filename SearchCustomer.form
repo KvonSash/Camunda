@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Search Customer",
+      "type": "textfield",
+      "id": "Field_04bqwh6",
+      "key": "searchcust",
+      "description": "Enter Name to search customer form database",
+      "validate": {
+        "required": false
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0ikukji"
+}

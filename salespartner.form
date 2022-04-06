@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Rohan",
+          "value": "Rohan"
+        },
+        {
+          "label": "Pavan",
+          "value": "Pavan"
+        },
+        {
+          "label": "Kumar",
+          "value": "Kumar"
+        },
+        {
+          "label": "Sujith",
+          "value": "Sujith"
+        }
+      ],
+      "label": "Select Sales Partner",
+      "type": "select",
+      "id": "Field_0tbc8c8",
+      "key": "AP",
+      "description": "Select the Sales Partner for this invoice",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "SalesPerson"
+}

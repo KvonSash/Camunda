@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Customer Name",
+      "type": "textfield",
+      "id": "Field_0vj12vz",
+      "key": "custname",
+      "description": "Enter Customer's Company Name",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Contact Person",
+      "type": "textfield",
+      "id": "Field_0a6zbb4",
+      "key": "ContactPerson",
+      "description": "Enter Contact Person Name",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Mobile Number",
+      "type": "textfield",
+      "id": "Field_0smlms5",
+      "key": "custcell",
+      "description": "Enter 10-Digit Mobile Number",
+      "validate": {
+        "required": true,
+        "minLength": 1000000000,
+        "maxLength": 9999999999
+      }
+    },
+    {
+      "label": "Billing Address",
+      "type": "textfield",
+      "id": "Field_1osrtsk",
+      "key": "billadd",
+      "description": "Enter Billing Address with City & Pincode",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Shipping Address",
+      "type": "textfield",
+      "id": "Field_0zvij2v",
+      "key": "shipadd",
+      "validate": {
+        "required": true
+      },
+      "description": "Enter Shipping Address with City & Pincode"
+    }
+  ],
+  "type": "default",
+  "id": "CustomerForm"
+}

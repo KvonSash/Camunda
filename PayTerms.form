@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Net 15",
+          "value": "15"
+        },
+        {
+          "label": "Net 30",
+          "value": "30"
+        },
+        {
+          "label": "Net 45",
+          "value": "45"
+        },
+        {
+          "label": "Net 60",
+          "value": "60"
+        },
+        {
+          "value": "Current Month",
+          "label": "End of Month"
+        },
+        {
+          "label": "End of Next Month",
+          "value": "Next Month"
+        },
+        {
+          "label": "On Receipt",
+          "value": "Pay on Receipt"
+        },
+        {
+          "label": "Custom Due Date",
+          "value": "Custom"
+        }
+      ],
+      "label": "Select Payment Terms",
+      "type": "radio",
+      "id": "Field_1qmaleu",
+      "key": "payterm",
+      "description": "Choose the payment terms you want to add for this invoice",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_09mci8x"
+}

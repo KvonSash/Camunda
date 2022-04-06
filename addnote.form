@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Add Note",
+      "type": "textfield",
+      "id": "Field_1gbqtbf",
+      "key": "addnote",
+      "description": "Add a note to customer"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1r8ehxv"
+}

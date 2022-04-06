@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Customer Note",
+      "type": "textfield",
+      "id": "Field_0vlahhn",
+      "key": "custnote",
+      "description": "Add note to customer"
+    },
+    {
+      "label": "Terms & Conditions",
+      "type": "textfield",
+      "id": "Field_0lhmzp9",
+      "key": "terms",
+      "description": "Add Terms & Conditions for this invoice",
+      "validate": {
+        "required": false
+      }
+    },
+    {
+      "label": "Email To",
+      "type": "textfield",
+      "id": "Field_0sbtkon",
+      "key": "email",
+      "description": "Enter Email ID to send Invoice",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0ymqg9a"
+}
